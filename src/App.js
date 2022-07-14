@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './App.css';
 import { Scanfood } from './components/scanfood';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
@@ -33,6 +34,22 @@ function App() {
       </>} />
       </Routes>
    </BrowserRouter>
+=======
+import { BrowserRouter, Routes, Router, Route } from 'react-router-dom';
+import { Header } from './components/header';
+import { Main } from './components/main';
+import { MainPage } from './pages/main';
+
+
+function App() {
+  return (
+      <BrowserRouter>
+        <Routes>
+          <Route  path='/' 
+        element={<MainPage/>} />
+        </Routes>
+      </BrowserRouter>
+>>>>>>> 1eda607f421216908d30bb93f94d952faa99f7be
   );
 }
 

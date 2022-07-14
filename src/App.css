@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .App {
   text-align: center;
 }
@@ -36,3 +37,68 @@
     transform: rotate(360deg);
   }
 }
+=======
+#menu {
+  width: 1500px;
+  height: 90px;
+  display: block;
+  background-color: white;
+}
+
+#mything {
+  position: absolute;
+  top : 0px;
+  left: 368px;
+  width: 150px;
+  height: 30px;
+  cursor:pointer;
+  border: none;
+  background-color: white;
+  font-size: large;
+  margin: 30px;
+}
+#mything:hover {
+  color: green;
+}
+
+#in {
+  position: absolute;
+  top : 0px;
+  left: 718px;
+  width: 100px;
+  height: 30px;
+  cursor:pointer;
+  border: none;
+  background-color: white;
+  font-size: large;
+  margin: 30px;
+}
+
+#in:hover {
+  color: green;
+}
+
+#my{
+  position: absolute;
+  top : 0px;
+  left: 1018px;
+  width: 100px;
+  height: 30px;
+  cursor:pointer;
+  border: none;
+  background-color: white;
+  font-size: large;
+  margin: 30px;
+}
+#my:hover {
+  color: green;
+}
+.sign {
+  display: block;
+  cursor:pointer;
+  border: none;
+  background-color: white;
+  float: right;
+  margin: 5px 20px;
+}
+>>>>>>> 1eda607f421216908d30bb93f94d952faa99f7be
