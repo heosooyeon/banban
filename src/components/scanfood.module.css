@@ -1,0 +1,16 @@
+.header {
+    width: 1600px;
+    height: 120px;
+    display: block;
+    
+}
+
+.text {
+    color: white;
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    width: 100%;
+    font-size: 43px;
+    text-shadow: 1px 3px 3px #000;
+}
